@@ -35,6 +35,10 @@
 </head>
 <body>
 
+  {% comment %} Place the Header Here{% endcomment %}
+  {% section 'header' %}
+
+
   {{ content_for_layout }}
 
   {{ 'theme.js' | asset_url | script_tag }}
