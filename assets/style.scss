@@ -1433,3 +1433,30 @@ p.with-icons i {
   font-size: 13px;
   padding: 10px;
 }
+
+// Password for Store Entry
+.password-text-image {
+    background-color: #626eb373;
+    height: 400px;
+    padding: 60px;
+    margin: 0 auto;
+}
+.password-text-image p{
+    font-weight: bolder;
+    color: white;
+    font-size: 16px;
+}
+.password-image {
+text-align:center;
+background: url(./category-1.jpg) no-repeat;
+background-size:cover;
+height: 400px;
+margin: 0;
+padding: 0;
+
+}
+.password {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 150px;
+}
