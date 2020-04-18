@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: "Poppins", sans-serif;
-  color: #757575;
+  color: #070505;
   font-size: 15px;
 }
 
@@ -1435,13 +1435,8 @@ p.with-icons i {
 }
 
 // Password for Store Entry
-.password-text-image {
-    background-color: #626eb373;
-    height: 400px;
-    padding: 60px;
-    margin: 0 auto;
-}
-.password-text-image p{
+
+.pti p{
     font-weight: bolder;
     color: white;
     font-size: 16px;
@@ -1459,4 +1454,11 @@ padding: 0;
     margin: 0 auto;
     text-align: center;
     padding-top: 150px;
+}
+
+.pti {
+  background-color: #626eb373;
+  height: 400px;
+  padding: 100px;
+  margin: 0 auto;
 }
